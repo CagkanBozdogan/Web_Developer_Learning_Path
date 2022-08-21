@@ -1,0 +1,53 @@
+h1 {color: blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: #c6c5d1;
+}
+strong{
+    color: #c10505;
+}
+
+.headernav{
+    color: #000000;
+    text-align: center;
+    padding: 0em;
+    list-style-type: none;
+    margin: 0%;
+
+}
+.headernav li{
+    display: inline;
+    padding: 1em;
+}
+
+img{
+    float:right;
+    padding-right: 5em;
+    padding-top: 0em;
+    padding-left: 2em;
+}
+
+.headernav a {
+    color:#000000;
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer{
+    text-align: end;
+    list-style-type: none;
+}
+footer ul li {
+    list-style: none;
+    display: inline;
+    padding: 2em;
+}
+footer ul{
+    text-align: center;
+}
+footer a{
+    color:#000000;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
