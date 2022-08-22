@@ -51,3 +51,6 @@ footer a{
     font-weight: bolder;
 }
 
+a:hover{
+    color:rgba(200, 85, 85, 0.998)
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google!</title>
+    <style>
+
+    /* Centers the Logo */
+        div>img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    /* Centers, gives width and background color to the search block */
+        .main{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 91em;
+            text-align: center;
+            background-color: #EEEEEE;
+            border: solid white;
+        }
+
+    /* Gives margin to buttons below search block */
+        .mainButton{
+            margin-bottom:0.2em;
+        }
+
+    /* Centers and gives width to footer */
+        .Footer{
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            width: 91em;
+            justify-content: space-between;
+
+        }
+
+    /* Sizes and positions the first box in the footer */
+        #botBox1{
+            text-align: center;
+            width: 37%;
+            background-color: #7EE5DA;
+            border-right: solid white;
+        }
+
+    /* Sizes and positions the second box in the footer */
+       #botBox2{
+            text-align: center;
+            width: 27%;
+            background-color: #70CCC2;
+            border-right: solid white;
+            font-size: smaller;
+            }
+
+    /* Sizes and positions the third box in the footer */
+        #botBox3{
+            text-align: center;
+            width: 36%;
+            background-color: #62B3AA;
+            font-size: smaller;
+            }
+    
+    /* Gives space from top to all bottom boxes */
+        #botBox1,#botBox2,#botBox3{
+            padding-top: 0.7em;
+        }
+
+    /* Positions the copyright tag */
+        #Copyrights{
+            text-align: center;
+            font-size: smaller;
+            color: darkgray;
+            margin-top: 1em;
+        }
+
+    
+
+    </style>
+
+</head>
+<body>
+<!--Logo starts-->
+<div>
+    <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="GoogleLogo">
+</div>
+<!--Logo ends-->
+
+<!-- Search bar starts -->
+<article class="main">
+    <span>Search the web using Google!</span> <br>
+    <input type="text" name="Search" style="width:23em;"><br> <!--Main search bar-->
+    <button type="button" class="mainButton">Google Search</button> <!--Button1-->
+    <button type="button" class="mainButton">I'm feeling lucky</button> <!--Button2-->
+</article>
+<!-- Search bar ends -->
+
+<!-- Footer starts -->
+<footer class="Footer"> 
+    <div id="botBox1"> 
+    <!-- Left-hand box in footer -->
+        <span>Special Searches</span>  <br>
+        <a href="#">Stanford Search</a> <br>
+        <a href="#">Linux Search</a>
+    </div>
+    <div id="botBox2"> 
+    <!-- Middle box in footer -->
+        <a href="#">Help!</a> <br>
+        <a href="#">About Google!</a> <br>
+        <a href="#">Company Info</a> <br>
+        <a href="#">Google! Logos</a>
+    </div>
+    <div id="botBox3"> 
+    <!-- Right-hand box in footer -->
+        <span>Get Google! <br> updates monthly:</span> <br>
+        <input type="text" name="Search" placeholder="Your e-mail"><br> <!--Mail-enterance-box-->
+        <button type="button">Subscribe</button> <!--Subscribe button-->
+        <a href="#">Archive</a> <br>
+    </div>
+</footer>
+<!-- Footer ends -->
+
+<div id="Copyrights">Copyright ©1998 Google Inc.</div> 
+
+</body>
+</html>
